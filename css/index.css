@@ -45,7 +45,7 @@ body{
 	color:#999;
 }
 	div#tnb_wrap p span{
-	color:#000;
+	color:#ff6a00;
 }
 
 
@@ -63,7 +63,7 @@ body{
 	div#utill ul.sns{
 	float:left;
 	width:127px;
-	height:23px;
+	height:27px;
 	line-height:30px;
 }
 	div#utill ul.sns li{
@@ -109,7 +109,8 @@ body{
 #navWrap h1{position:absolute; top:-4px; left:260px; z-index:99; width:155px; height:47px;}
 
 /* GNB */
-#gnbWrap {z-index:49; position: absolute; left:0px; top:0px;  overflow:hidden; width:100%; height:68px; margin:0 auto; border-bottom:1px solid #e6e6e6; background:rgba(255,255,255,0.8) url("../images/bg_header.gif") repeat-x; } /*close:50px; open:86px;*/
+#gnbWrap {z-index:49; position: absolute; left:0px; top:0px;  overflow:hidden; width:100%; height:68px; margin:0 auto; 
+	border-bottom:1px solid #e6e6e6; background:rgba(255,255,255,0.8) url("../images/bg_header.gif") repeat-x; } /*close:50px; open:86px;*/
 #gnbWrap #gnb {width:1147px; height:100%; margin:0 auto;}
 #gnbWrap #gnb li {float:left;padding-top:10px; font-size: 18px;font-weight: bold;}
 #gnbWrap #gnb li a{text-align:right;color:000;}
@@ -128,7 +129,8 @@ body{
 #gnbWrap #gnb .on .sGnbArea {display:block;}
 
 /* subGNB */
-.sGnbArea {display:none; overflow:hidden; position:absolute; left:0; top:68px; z-index:50; width: 100%; height:54px; border-top:1px solid #e6e6e6;} 
+.sGnbArea {display:none; overflow:hidden; position:absolute; left:0; top:68px; z-index:50; width: 100%; height:54px; 
+	border-top:1px solid #e6e6e6;} 
 .sGnbArea ul {width:815px; margin:0 auto;}
 .sGnbArea ul:after {content:""; display:block; clear:both;}
 
@@ -530,6 +532,7 @@ div.family-block > div > div > p{
 }
 div.family-block > div > div > img{
     margin-top: 24px;
+	cursor: pointer;
 }
 div.family-block > div > div > div.type01{
     color: #fff;
@@ -621,7 +624,7 @@ section#community-wrap p{
 }
 
 div.sns-box > a{
-	position:absolute;
+	position:relative;
 	right:0;
 	bottom:0;
 }
@@ -879,7 +882,7 @@ footer div#footerWrap{
 }
 
 footer .logo{
-	margin-top:50px;
+	margin-top:65px;
 	float:left;
 }
 
@@ -958,7 +961,7 @@ div.foot-area02 .family > a {
     font-size: 13px;
     font-weight: 400;
     border: 1px solid #c8c8c8;
-    background: #fff url(../images/icon/ico_sel_arr.gif) no-repeat 95% center;
+    background: #fff url(../images/ico_sel_arr.gif) no-repeat 95% center;
 }
 
 div.family ul {
